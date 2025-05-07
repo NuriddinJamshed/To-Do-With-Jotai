@@ -1,12 +1,44 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 To-Do List с использованием Jotai
++ Простое и минималистичное приложение "Список дел", созданное с использованием React, Vite и Jotai для управления состоянием.
+### 📦 Технологии
++ React – библиотека для создания пользовательских интерфейсов
++ Vite – современный инструмент сборки для фронтенда
++ Jotai – простая и гибкая библиотека для управления состоянием в React
++ ESLint – инструмент для анализа кода и обеспечения его качества
 
-Currently, two official plugins are available:
+### 🛠 Установка и запуск
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
++ Клонируйте репозиторий:
++ ```javascript
+    git clone https://github.com/NuriddinJamshed/To-Do-With-Jotai.git
+    cd To-Do-With-Jotai
+  ```
++ Установите зависимости:
++ ```javascript
+    npm install
+  ```
++ Запустите приложение:
++ ```javascript
+    npm run dev
+  ```
++ Приложение будет доступно по адресу: [ http://localhost:5173]( http://localhost:5173)
 
-## Expanding the ESLint configuration
+### 📁 Структура проекта
++ ```javascript
+    To-Do-With-Jotai/
+    ├── src/                # Исходный код приложения
+    │   ├── components/     # Компоненты React
+    │   ├── atoms/          # Jotai атомы для управления состоянием
+    │   └── App.jsx         # Главный компонент приложения
+    ├── public/             # Публичные файлы
+    ├── index.html          # Шаблон HTML
+    ├── package.json        # Зависимости и скрипты
+    ├── vite.config.js      # Конфигурация Vite
+    └── README.md           # Документация проекта
+  ```
+  ### 🙌 Благодарности
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  + [Jotai](https://jotai.com) – за простое и мощное управление состоянием
+  + [Vite](https:/vite.com) – за невероятно быструю сборку и разработку
